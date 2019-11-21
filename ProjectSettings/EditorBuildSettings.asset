@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/NavarroSaraUD3_Principal.unity
+    guid: 89c8901b2b98fef44ba0ce1cc3accabc
   m_configObjects: {}
