@@ -474,7 +474,7 @@ Transform:
   - {fileID: 585903129}
   - {fileID: 327966690}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &170076733
 GameObject:
@@ -1791,7 +1791,7 @@ PrefabInstance:
     - target: {fileID: 7517035115614473429, guid: 381f8d73405a0fb4398fe22a3ef3a380,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7517035115614473429, guid: 381f8d73405a0fb4398fe22a3ef3a380,
         type: 3}
@@ -2234,7 +2234,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1683219195
 PrefabInstance:
@@ -2862,7 +2862,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2076353772}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3249527069192107116, guid: 381f8d73405a0fb4398fe22a3ef3a380,
         type: 3}
@@ -2907,7 +2907,7 @@ PrefabInstance:
     - target: {fileID: 7517035115614473429, guid: 381f8d73405a0fb4398fe22a3ef3a380,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7517035115614473429, guid: 381f8d73405a0fb4398fe22a3ef3a380,
         type: 3}
@@ -2926,12 +2926,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 381f8d73405a0fb4398fe22a3ef3a380, type: 3}
---- !u!4 &2010086086 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7517035115614473429, guid: 381f8d73405a0fb4398fe22a3ef3a380,
-    type: 3}
-  m_PrefabInstance: {fileID: 2010086085}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2025375550 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7517035115614473429, guid: 381f8d73405a0fb4398fe22a3ef3a380,
@@ -2969,10 +2963,9 @@ Transform:
   - {fileID: 1864260768}
   - {fileID: 2025375550}
   - {fileID: 451111025}
-  - {fileID: 2010086086}
   - {fileID: 1279963368}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2103785215
 GameObject:

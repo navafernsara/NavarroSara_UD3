@@ -24,7 +24,7 @@ public class ControladorDelJugador : MonoBehaviour
         ActualizaMarcador();
         //Desactivar elemento texto de fin de juego//
         finJuego.gameObject.SetActive(false);
-
+        
     }
 
     public void FixedUpdate()
@@ -65,7 +65,6 @@ public class ControladorDelJugador : MonoBehaviour
 
             Time.timeScale = 0;
         }
-
     }
 
     void ActualizaMarcador()
