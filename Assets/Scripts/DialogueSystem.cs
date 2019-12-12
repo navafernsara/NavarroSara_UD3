@@ -28,7 +28,7 @@ public class DialogueSystem : MonoBehaviour
         continueButton.onClick.AddListener(delegate { ContinueDialogue(); });
         dialoguePanel.SetActive(false);
         //activa movimiento
-
+        Time.timeScale = 1;
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -58,6 +58,7 @@ public class DialogueSystem : MonoBehaviour
         nameText.text = npcName;
         dialoguePanel.SetActive(true);
         //desactiva movimiento
+        Time.timeScale = 0;
     }
 
     public void ContinueDialogue()
